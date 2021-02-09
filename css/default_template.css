@@ -1,0 +1,229 @@
+header{ 
+    position: sticky;
+    top: 0px;
+    font-size: 20px;
+    padding: 15px ;
+    text-align: center ;
+    height: 10% ;
+    width: 98% ;
+    background-color: #207EE8;
+    color: white;
+}
+body{
+    margin: 0%;
+    background-color: white;
+}
+
+.container{
+    position: relative;
+    top: 50px;
+    left: 38%;
+    width: 350px;
+    height: 53%;
+    padding: 5px;
+    border: 2px solid #207EE8;
+    border-radius: 40px;
+    margin: 0px;
+    box-shadow: 0px 1px gray;
+    
+}
+
+.loginheader{
+    font-size: 16px;
+    padding: 0 0 0 10px;
+}
+
+input[type=email] , input[type=password] , input[type=text]{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0; 
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(83, 83, 83);
+  }
+
+input[type=submit]{
+    box-shadow: 0px 2px rgb(110, 110, 110);
+    background-color: #006fee;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 90px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.btn{
+    box-shadow: 0px 2px rgb(110, 110, 110);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    width: 237px;
+    text-decoration: none;
+    margin: 10px 2px 5px 2px;
+    cursor: pointer;
+  }
+
+.facebook_button{
+    background-color: #4267B2;
+  }
+
+.google_button{
+    background-color: #DB4437;
+  }
+
+a{
+    text-decoration: none;
+    color :rgb(0, 183, 255);
+}
+
+#iconfacebook{
+    position: relative;
+    right: 5px;
+    top: 3px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 200px; 
+    background-color: rgb(243, 243, 243);
+    box-sizing: border-box;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+.row_register:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.column_register {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px; 
+    box-sizing: border-box;
+}
+
+.container_register{
+    position: relative;
+    top: 50px;
+    left: 31%;
+    width: 550px;
+    height: 53%;
+    padding: 5px;
+    border: 2px solid #207EE8;
+    border-radius: 40px;
+    margin: 0px;
+    box-shadow: 0px 1px gray;
+}
+
+.btn_register{
+    box-shadow: 0px 2px rgb(110, 110, 110);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    width: 400px;
+    text-decoration: none;
+    margin: 10px 2px 5px 2px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    box-shadow: 0px 2px rgb(110, 110, 110);
+    background-color: #006fee;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 400px;
+    padding: 10px 90px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.footer_paragraph{
+    margin: 1px ;
+}
+.footer_paragraph2{
+    margin: 1px ;
+    color: rgb(0, 196, 245);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #207EE8;
+    width: 100%;
+    height: 53px;
+  }
+  
+li {
+    float: right;
+}
+
+li a:hover {
+    background-color: rgb(0, 115, 223);
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.register_box{
+    background-color: rgb(0, 209, 17);
+    width: 120px;
+    height: 70px;
+}
+
+.column_school {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+  }  
+  
+.row_school:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+.column_school {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+  
+.card_school {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
